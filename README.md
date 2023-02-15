@@ -1,38 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ignite News
 
-## Getting Started
+Blog que utiliza assinatura para que os usuários possam consumir conteudo.
 
-First, run the development server:
+![capa](https://user-images.githubusercontent.com/60861927/219220589-60124225-4ee2-4a87-bd2f-5dd42fc8c41e.png)
+
+
+## CLI ⌨️
+
+- Rodar o projeto local
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) em seu navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tecnologias
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- ReactJS
+- SASS
+- NextJS
+- FaunaDB
+- Stripe ( api para metodos de pagamento )
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Layouts
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Home 
 
-## Learn More
+![home](https://user-images.githubusercontent.com/60861927/219220672-b03501de-9b09-4d79-940f-28e804f1e16a.png)
 
-To learn more about Next.js, take a look at the following resources:
+### Posts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+![posts](https://user-images.githubusercontent.com/60861927/219220703-6d69da0f-aed5-417e-965a-d420c45df2cc.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+### Post interno sem estar logado
 
-## Deploy on Vercel
+![internal-post-sem-login](https://user-images.githubusercontent.com/60861927/219220815-3c9e33f0-8aa4-4841-82dc-d84c2b321dc9.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Post interno logado
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+![internal-post-logado](https://user-images.githubusercontent.com/60861927/219220849-02dd1f19-9148-425e-97ae-acf84e5838e7.png)
+
+
+
